@@ -4,17 +4,18 @@ top: 0px;
 margin: 0%;
 padding: 0%;
 scroll-behavior: smooth;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .content{
  font-weight: 100;
- font-family: "Amiri";
  color: black;
  overflow: hidden;
- height: 11150px;
+ height: auto;
  background-color: white;
  transition: 2.5s;
  filter: brightness(0);
+ 
 }
 
 .container{
@@ -87,7 +88,6 @@ scroll-behavior: smooth;
 #slide-title{
   text-align: center;
   font-size: 65px;
-  font-family: Amiri;
   color: black;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -108,7 +108,6 @@ scroll-behavior: smooth;
 .gallery{
  position: absolute;
  left: 50%;
- font-family: Amiri;
  transform: translate(-50%, -50%);
  white-space: nowrap;
  transition: 1s;
@@ -119,7 +118,6 @@ scroll-behavior: smooth;
  top: 410px;
  color: black;
  font-size: 60px;
- font-family: Amiri;
  border-top: solid black 4px;
 }
 
@@ -128,7 +126,6 @@ scroll-behavior: smooth;
  top: 300px;
  color: black;
  font-weight: 900;
- font-family: Amiri;
 }
 
 #photo1holder{
@@ -344,14 +341,12 @@ scroll-behavior: smooth;
  font-size: 50px;
  text-align: center;
  font-weight: bold;
- font-family: Amiri;
 
 }
 
 .photocap-sm{
  font-size: 40px;
  text-align: center;
- font-family: Amiri;
  margin-bottom: 30px;
 }
 
@@ -569,7 +564,6 @@ a{
  #slide-title{
    text-align: center;
    font-size: 4vmax;
-   font-family: Amiri;
    color: black;
    margin-bottom: 100px;
  }
@@ -579,7 +573,6 @@ a{
    top: 770px;
    left: 70px;
    font-size: 2vmax;
-   font-family: Amiri;
    color: white;
    margin-bottom: 100px;
    z-index: 1;
@@ -592,7 +585,6 @@ a{
    top: 800px;
    left: 70px;
    font-size: 1.2vmax;
-   font-family: Amiri;
    color: white;
    margin-bottom: 100px;
    z-index: 1;
@@ -603,7 +595,6 @@ a{
  #slide-title-big{
    text-align: center;
    font-size: 5vmax;
-   font-family: Amiri;
    color: white;
    margin-bottom: 200px;
    margin-top: 200px;
@@ -697,7 +688,6 @@ a{
 
 #home-nav a, #contact-nav a, #gallery-nav a{
  color: rgb(0, 0, 0);
- font-family: "Amiri";
  border-bottom: 1px solid rgb(255, 255, 255, 0);
  border-radius: 5px;
  padding: 1px;
@@ -737,7 +727,6 @@ a{
     top: 0vmax;
     color: black;
     font-size: 4.5vmax;
-    font-family: Amiri;
   }
 
  #gallery-title{
@@ -747,7 +736,6 @@ a{
    text-align: center;
    color: black;
    font-size: 1.5vmax;
-   font-family: Amiri;
    border-top: solid black 2px;
  }
 
