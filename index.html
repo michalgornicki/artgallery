@@ -6,8 +6,8 @@
   <!-- BOOTSTRAP CDN AND CUSTOMISED CSS LINKS -->
 
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   <link href='http://fonts.googleapis.com/css?family=Amiri&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta charset="utf-8">
@@ -16,135 +16,261 @@
 
 <body>
 
-  <div class="gallery" id="gallery-title">MODERN ART</div>
-  <div class="gallery" id="gallery-name"><a class="link-white" href="../index.html">OTHERSIDE</a></div>
+  <div id="menu"  data-aos="fade-down" data-aos-duration="2500">
 
-  <div id="menu">
     <ul id="list">
-      <li id="home-nav"><a href="../index.html">NOWE EKSPOZYCJE</a></li>
-      <li id="gallery-nav"><a href="#container0">GALERIA</a></li>
-      <li id="contact-nav"><a href="../contact/index.html">KONTAKT</a></li>
+      <li id="home-nav"><a href="#container0">NOWE EKSPOZYCJE</a></li>
+      <li id="gallery-nav"><a href="gallery/index.html">GALERIA</a></li>
+      <li id="contact-nav"><a href="contact/index.html">KONTAKT</a></li>
     </ul>
+
   </div>
 
-  <div id="navbar"> <a href="#image1"><img id="home-button" src="home.png" alt="" onclick=closeMenu()></a> <img id="burger-button" src="menu.png" alt="" onclick=openMenu()> <img id="close-button" src="close.png" alt="" onclick=closeMenu()> </div>
+  <div class="gallery" id="gallery-title"  data-aos="fade-down" data-aos-duration="2500">MODERN ART</div>
+  <div class="gallery" id="gallery-name"  data-aos="fade-down" data-aos-duration="2500"><a href="#container0">OTHERSIDE</a></div>
 
   <div class="content">
 
-    <div class="container" id="container0"><img id="image1" src="background1.jpg" alt="" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="100"></div>
-    <div class="container" id="container1" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="100">
+    <div id="navbar"> <a href="#image1"><img id="home-button" src="home.png" alt="" onclick=closeMenu()></a> <img id="burger-button" src="menu.png" alt="" onclick=openMenu()> <img id="close-button" src="close.png" alt="" onclick=closeMenu()> </div>
 
-      <div id="container1-text">
-        <b>Wystawy Collins & Milazzo były serią wystaw sztuki, których kuratorami był zespół Tricia Collins i Richard Milazzo, głównie w Nowym Jorku w połowie lat osiemdziesiątych. Byli także współredaktorami i współwydawcami magazynu poświęconego teorii sztuki Effects: Magazine for New Art Theory. </b> </br>
 
-          W 1984 roku Collins i Milazzo zaczęli współpracować jako kuratorzy, aby przekształcić wystawę grupową w krytyczne oświadczenie. Collins i Milazzo w latach 80-tych wyeksponowali nowe pokolenie artystów. To ich wystawy i pisma pierwotnie ukształtowały teoretyczny kontekst dla nowego rodzaju sztuki postkonceptualnej, sprzeciwiającej się jednocześnie neoekspresjonizmowi i sztuce obrazowo-teoretycznej. To właśnie w tym kontekście po raz pierwszy połączyła się twórczość wielu artystów związanych z neokonceptualizmem (lub tym, co krytycy nazywali redukcyjnie Simulationism i Neo Geo).
+    <div class="container" id="container0" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="2500"><img id="image1" src="background1.jpg" alt="">
+
+    <div id="slide-title-medium">LIGHT FESTIVAL 2020</div>
+    <div id="slide-title-tiny">30 SIERPNIA - 7 PAŹDZIERNIKA</div>
+
+    </div>
+
+    <div id="slide-title-big">NOWE WYSTAWY</div>
+
+    <div class="container" id="container1" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+
+
+      <div id="container1-text" data-aos="fade-in" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+      <div id="slide-title">KOLORY AFRYKI</div>
+        &emsp; <b>Wystawa zainspirowana została dalekimi wyprawami do środkowej Afryki.
+        Umieszczenie egzotycznych zwierząt na pierwszym planie, sugestywne i dynamiczne sceny, nacisk na prezencję bujnej flory to podstawowe cechy ukazanych dzieł.
+        Wpływ kultury Czarnego Lądu na kształt malarstwa europejskiego osiągnął apogeum w połowie XX wieku. </b> <br> <br>
+        &emsp; Tingatinga – pochodzący z lat 60. XX w. styl malarski Tanzanii. Nazwa wywodzi się od nazwiska Edwarda Saidiego Tingatingi.
+        Przedstawicieli tego nurtu inspirowała fauna Afryki Wschodniej, szczególnie tzw. wielka piątka: słoń, hipopotam, żyrafa, lew, antylopa i ptak.
+        Pierwsze przedstawienia tych zwierząt przypominają wizerunki sztuki naskalnej.
+        Przypuszcza się, że wpływ na twórczość Tingatingi mogły mieć piktogramy pozostawione przez ludność Sandawe i Hadza.
+        Obrazy tingatinga w swojej prostocie nawiązują do tych przedstawień.
       </div>
+
+      <div class="carousel1 single-item-fade" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+        <div>
+          <img class=carousel-item src="animals1.jpg" alt="">
+          <div class="photocap">Szary Dzioborożec</div>
+          <div class="photocap-sm">James Garcia</div>
+        </div>
 
         <div>
-          <img class=photo-item src="gallery1.jpg" alt="">
-          <div class="photocap ">Neoekspresjonizm, wystawa północna</div>
+          <img class=carousel-item src="animals2.jpg" alt="">
+          <div class="photocap">Sowa Brązowa</div>
+          <div class="photocap-sm">Artistic Panda</div>
         </div>
 
+        <div>
+          <img class=carousel-item src="animals3.jpg" alt="">
+          <div class="photocap">Pyton Dywanowy</div>
+          <div class="photocap-sm">Helena Forde</div>
+        </div>
+
+        <div>
+          <img class=carousel-item src="animals4.jpg" alt="">
+          <div class="photocap">Pyton Dywanowy</div>
+          <div class="photocap-sm">Helena Forde</div>
+        </div>
+
+        <div>
+          <img class=carousel-item src="animals5.jpg" alt="">
+          <div class="photocap">Pyton Dywanowy</div>
+          <div class="photocap-sm">Helena Forde</div>
+        </div>
+
+        <div>
+          <img class=carousel-item src="animals6.jpg" alt="">
+          <div class="photocap">Pyton Dywanowy</div>
+          <div class="photocap-sm">Helena Forde</div>
+        </div>
+
+        <div>
+          <img class=carousel-item src="animals7.jpg" alt="">
+          <div class="photocap">Pyton Dywanowy</div>
+          <div class="photocap-sm">Helena Forde</div>
+        </div>
+        
+
+      </div>
+
+      <div class="image-wrap">
+        <img class="image-small" src="animals8.jpg" alt="" data-aos="fade-up-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
+        <img class="image-small" src="animals9.jpg" alt="" data-aos="fade-up-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
+        <img class="image-small" src="animals10.jpg" alt="" data-aos="fade-up-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
+        </div>
+
+        <div class="image-wrap" data-aos="flip-up">
+        <img class="image-small" src="animals11.jpg" alt="" data-aos="fade-up-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
+        <img class="image-small" src="animals12.jpg" alt="" data-aos="fade-up-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
+        <img class="image-small" src="animals13.jpg" alt="" data-aos="fade-up-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
+        </div>
+
+        <div class="image-wrap" data-aos="flip-up">
+          <img class="image-small" src="animals14.jpg" alt="" data-aos="fade-up-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
+          <img class="image-small" src="animals15.jpg" alt="" data-aos="fade-up-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
+          <img class="image-small" src="animals16.jpg" alt="" data-aos="fade-up-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
+        </div>
+
+      </div>
+
+
+
+      <div class="container" id="container2" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+
+
+        <div id="container1-text" data-aos="fade-in" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+        <div id="slide-title">ODLEGŁE KRAJOBRAZY</div>
+          &emsp; <b>Malarstwo pejzażowe, zwane także sztuką pejzażową, to przedstawianie naturalnych scenerii, takich jak góry, doliny, drzewa, rzeki i lasy, zwłaszcza tam, gdzie głównym tematem jest szeroki widok - z jego elementami ułożonymi w spójną kompozycję. W innych pracach tła krajobrazowe dla postaci mogą nadal stanowić ważną część pracy. Niebo prawie zawsze jest uwzględnione w widoku, a często elementem kompozycji jest pogoda. Szczegółowe krajobrazy jako odrębny przedmiot nie występują we wszystkich tradycjach artystycznych i rozwijają się, gdy istnieje już wyrafinowana tradycja reprezentowania innych tematów. </b> <br> <br>
+          &emsp; Malarstwo pejzażowe, zwane także sztuką pejzażową, to przedstawianie naturalnych scenerii, takich jak góry, doliny, drzewa, rzeki i lasy, zwłaszcza tam, gdzie głównym tematem jest szeroki widok - z jego elementami ułożonymi w spójną kompozycję. W innych pracach tła krajobrazowe dla postaci mogą nadal stanowić ważną część pracy. Niebo prawie zawsze jest uwzględnione w widoku, a często elementem kompozycji jest pogoda. Szczegółowe krajobrazy jako odrębny przedmiot nie występują we wszystkich tradycjach artystycznych i rozwijają się, gdy istnieje już wyrafinowana tradycja reprezentowania innych tematów.
+
+          Dwie główne tradycje wywodzą się z malarstwa zachodniego i sztuki chińskiej, które w obu przypadkach sięgają ponad tysiąc lat wstecz. Rozpoznanie elementu duchowego w sztuce krajobrazu jest obecne od jej początków w sztuce wschodnioazjatyckiej, czerpiącej z taoizmu i innych tradycji filozoficznych, ale na Zachodzie ujawnia się dopiero w romantyzmie.
+          
+          Poglądy krajobrazowe w sztuce mogą być całkowicie wyimaginowane lub skopiowane z rzeczywistości z różnym stopniem dokładności. Jeśli głównym celem zdjęcia jest przedstawienie rzeczywistego, konkretnego miejsca, w szczególności w widocznym miejscu, w szczególności budynków, nazywa się to widokiem topograficznym. Takie poglądy, niezwykle powszechne jako grafiki na Zachodzie, są często postrzegane jako gorsze od krajobrazów artystycznych, chociaż to rozróżnienie nie zawsze jest znaczące; podobne uprzedzenia istniały w sztuce chińskiej, gdzie malarstwo literackie zwykle przedstawiało wyimaginowane poglądy, podczas gdy profesjonalni artyści malowali prawdziwe widoki.
       
+        </div>
+
+        
+
+        <div class="carousel2 single-item-slider" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+          <div>
+            <img class=carousel-item src="landscape1.jpg" alt="">
+            <div class="photocap">Grasmere From The Rydal Road</div>
+            <div class="photocap-sm">Francis Towne</div>
+          </div>
+
+          <div>
+            <img class=carousel-item src="landscape2.jpg" alt="">
+            <div class="photocap">Watercolour World</div>
+            <div class="photocap-sm">William Andrews Nesfield</div>
+          </div>
+
+          <div>
+            <img class=carousel-item src="landscape3.jpg" alt="">
+            <div class="photocap">Lancaster Sands</div>
+            <div class="photocap-sm">William Turner</div>
+          </div>
+
+        </div>
+
+             <div class="image-wrap">
+        <img class="image-small" src="landscape4.jpg" alt="" data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
+        <img class="image-small" src="landscape5.jpg" alt="" data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
+        <img class="image-small" src="landscape6.jpg" alt="" data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
+        </div>
+
         <div class="image-wrap">
-          <img class="image-small" src="gallery8.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
-          <img class="image-small" src="gallery9.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
-          <img class="image-small" src="gallery10.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
+        <img class="image-small" src="landscape7.jpg" alt="" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
+        <img class="image-small" src="landscape8.jpg" alt="" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
+        <img class="image-small" src="landscape9.jpg" alt="" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
+        </div>
+
+        <div class="image-wrap">
+          <img class="image-small" src="landscape10.jpg" alt="" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
+          <img class="image-small" src="landscape11.jpg" alt="" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
+          <img class="image-small" src="landscape12.jpg" alt="" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
+        </div>
+
+
+
+      <div class="container" id="image2" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+
+        <div class="transparent-container">
+
+          <div id="container1-text" data-aos="fade-in" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+          <div id="slide-title">CZARUJĄCE PORTRETY</div>
+
+            &emsp; <b>Malarstwo portretowe to gatunek w malarstwie, którego intencją jest przedstawienie określonego ludzkiego podmiotu. Termin „malarstwo portretowe” może również opisać faktycznie namalowany portret. Portreciści mogą tworzyć swoje prace na zamówienie, dla osób publicznych i prywatnych lub inspirować się podziwem lub przywiązaniem do tematu. Portrety często służą jako ważne dokumenty państwowe i rodzinne, a także pamiątki. </b> <br> <br>
+            &emsp;  
+            Historycznie, portrety upamiętniają przede wszystkim bogatych i wpływowych. Z biegiem czasu jednak stało się powszechne, że klienci z klasy średniej zamawiali portrety swoich rodzin i współpracowników. Dziś portrety są nadal zamawiane przez rządy, korporacje, grupy, kluby i osoby prywatne. Oprócz malarstwa portrety można wykonywać również w innych mediach, takich jak odbitki (w tym akwaforta i litografia), fotografia, wideo i media cyfrowe.
+            Wydawać by się mogło oczywiste, że namalowany portret ma na celu uzyskanie podobizny siedzącej, która jest rozpoznawalna dla tych, którzy go widzieli, a najlepiej jest bardzo dobrym zapisem ich wyglądu. W rzeczywistości koncepcja ta rozwijała się powoli i minęły wieki, zanim artyści z różnych tradycji nabyli odrębne umiejętności malowania dobrego podobieństwa.
+
           </div>
-  
-          <div class="image-wrap">
-          <img class="image-small" src="gallery11.jpg" alt="" data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
-          <img class="image-small" src="gallery12.jpg" alt="" data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
-          <img class="image-small" src="gallery13.jpg" alt="" data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
+
+          <div class="carousel3 multi-item-slider" data-aos="fade-up-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">
+            <div>
+              <img class=carousel-item-vertical src="portrait1.jpg" alt="">
+              <div class="photocap">Portret młodej kobiety</div>
+              <div class="photocap-sm">Jance McAllen</div>
+            </div>
+
+            <div>
+              <img class=carousel-item-vertical src="portrait2.jpg" alt="">
+              <div class="photocap">Daniel Craig</div>
+              <div class="photocap-sm">Françoise Nielly</div>
+            </div>
+
+            <div>
+              <img class=carousel-item-vertical src="portrait3.jpg" alt="">
+              <div class="photocap">Witness</div>
+              <div class="photocap-sm">Isabella Moravetz</div>
+            </div>
+
+            <div>
+              <img class=carousel-item-vertical src="portrait4.jpg" alt="">
+              <div class="photocap">Natalie</div>
+              <div class="photocap-sm">James Connor</div>
+            </div>
+
           </div>
-  
-          <div class="image-wrap">
-            <img class="image-small" src="gallery14.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
-            <img class="image-small" src="gallery15.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
-            <img class="image-small" src="gallery16.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
+
+            <div class="carousel4 multi-item-slider-alter" data-aos="fade-up-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="100">
+              <div>
+                <img class=carousel-item-vertical src="portrait5.jpg" alt="">
+                <div class="photocap">Nude</div>
+                <div class="photocap-sm">Aleksiej Dobrawkin</div>
+              </div>
+
+              <div>
+                <img class=carousel-item-vertical src="portrait6.jpg" alt="">
+                <div class="photocap">Betina</div>
+                <div class="photocap-sm">Tuva Mathilde Løland</div>
+              </div>
+
+              <div>
+                <img class=carousel-item-vertical src="portrait7.jpg" alt="">
+                <div class="photocap">Kobieta w Oknie</div>
+                <div class="photocap-sm">Maria Karovna</div>
+              </div>
+
+              <div>
+                <img class=carousel-item-vertical src="portrait8.jpg" alt="">
+                <div class="photocap">Clarity</div>
+                <div class="photocap-sm">Anne Sobiesky</div>
+              </div>
+
           </div>
-      
-      
+
+
+          </div>
+
+        </div>
 
       </div>
-
-      <div class="container" id="container2" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="100">
-        
-        <div id="container2-text" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="100">
-          <b>XIX wiek w sztuce francuskiej charakteryzuje się ciągłą walką między tradycyjnie wykształconymi artystami, wspieranymi przez oficjalną politykę, a rosnącą liczbą artystów, którzy woleli pracować indywidualnie i na własne ryzyko. </b></br> Przegląd sytuacji historycznej jest trudny, nawet sto lat później. Ale najwyraźniej przeciwnicy oficjalnej polityki zyskali poparcie po upadku II Cesarstwa i odegrali kluczową rolę w przekierowaniu francuskiej polityki kulturalnej na stanowiska liberalne. Zatem rozpad Société Nationale des Beaux-Arts w 1890 r. Można uznać za pierwszą manifestację secesji.
-            W 1984 roku Collins i Milazzo zaczęli współpracować jako kuratorzy, aby przekształcić wystawę grupową w krytyczne oświadczenie. Collins i Milazzo w latach 80-tych wyeksponowali nowe pokolenie artystów. To ich wystawy i pisma pierwotnie ukształtowały teoretyczny kontekst dla nowego rodzaju sztuki postkonceptualnej, sprzeciwiającej się jednocześnie neoekspresjonizmowi i sztuce obrazowo-teoretycznej. To właśnie w tym kontekście po raz pierwszy połączyły się prace wielu artystów związanych z neokonceptualizmem (lub tym, co krytycy nazwali redukcyjnie Simulacjonizmem i Neo Geo).
-        </div>
-
-        <img class="image-vertical" src="gallery2.jpg">
-        
-        </div>
-
-      <div class="container" id="image2" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="3000" data-aos-offset="100">
-
-        <div class="transparent-container" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="100">
-
-          <div class="carousel1 single-item-fade" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="100">
-            <div>
-              <img class=carousel-item src="gallery3.jpg" alt="">
-            </div>
-
-            <div>
-              <img class=carousel-item src="gallery4.jpg" alt="">
-            </div>
-
-            <div>
-              <img class=carousel-item src="gallery5.jpg" alt="">
-            </div>
-
-            <div>
-              <img class=carousel-item src="gallery6.jpg" alt="">
-            </div>
-
-            <div>
-              <img class=carousel-item src="gallery7.jpg" alt="">
-            </div>
-
-          </div>
-
-          <div id="container3-text" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-400">
-          <b>W otoczeniu kilku malarzy Rabindranath zawsze chciał malować. Pisanie i muzyka, dramatopisarstwo i aktorstwo przyszły mu naturalnie i prawie bez treningu, tak jak stało się to z kilkoma innymi członkami jego rodziny, a nawet w jeszcze większym stopniu. </b> </br> Ale malowanie wymykało mu się. Jednak wielokrotnie próbował opanować tę sztukę i jest kilka odniesień do tego w jego wczesnych listach i wspomnieniach. Na przykład w 1900 roku, kiedy miał blisko czterdzieści lat i był już uznanym pisarzem, napisał do Jagadishchandry Bose: „Będziesz zaskoczony, słysząc, że siedzę z rysunkiem ze szkicownika. Nie trzeba dodawać, że obrazy nie są przeznaczone do żadnego salonu w Paryżu wzbudzają we mnie nie najmniejsze podejrzenie, że galeria narodowa dowolnego kraju nagle zdecyduje się podnieść podatki, aby je nabyć. Ale tak jak matka okazuje najwięcej uczuć swoim najbrzydszemu synowi, tak w sekrecie czuję pociąg do umiejętności przychodzi mi to najmniej łatwo ”. Uświadomił sobie również, że używa gumki bardziej niż ołówka i niezadowolony z rezultatów, które ostatecznie wycofał, uznając, że to nie on powinien zostać malarzem.
-          </div>
-
-          <div class="image-wrap">
-            <img class="image-small" src="gallery17.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
-            <img class="image-small" src="gallery18.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
-            <img class="image-small" src="gallery19.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
-            </div>
-    
-            <div class="image-wrap" data-aos="flip-up">
-            <img class="image-small" src="gallery20.jpg" alt="" data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
-            <img class="image-small" src="gallery21.jpg" alt="" data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
-            <img class="image-small" src="gallery22.jpg" alt="" data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
-            </div>
-    
-            <div class="image-wrap" data-aos="flip-up">
-              <img class="image-small" src="gallery23.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200">
-              <img class="image-small" src="gallery24.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="300">
-              <img class="image-small" src="gallery25.jpg" alt="" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-offset="-200" data-aos-delay="600">
-            </div>
-
-          </div>
-
-          </div>
-
-        </div>
-
-
-      </div>
-      
 
       <!-- JQUERY AND JS CDNS -->
-      <script type="text/javascript" src="../jquery.js"></script>
-      <script type="text/javascript" src="../slick/slick.min.js"></script>
+      <script type="text/javascript" src="jquery.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
       <script src="myScript.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>AOS.init({offset: 0, once: false});</script>
+      <script>
+      AOS.init({
+        offset: 0,
+        once: false,
+      });
+    </script>
 
+    </div>
 </body>
 
 </html>
